@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: .9;
+    position: sticky;
+    top: 0; 
+    background-color: #7DC95E;
+}
+
+header img{
+    width: 250px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 85px;
+}
+
+.nav2 ul{
+    background-color: #528E43;
+    width: 50%;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li a{
+    color: #CEE7E6;
+    background-color: #374B4A;
+    padding: 5px 10px;
+}
+
+.banner{ /*inicio*/
+    background-image:url(../img/banner.jpg) ;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backimagen { /*contactanos*/
+    background-image: url(../img/ictioplancton.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    margin: 50px 25px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    margin: 20px 0;
+    color: #B5E2FA;
+}
+
+p{
+    margin: 5px 25px;
+    width: 90%;
+}
+
+body{
+    background-color: #648767;
+    color: #CEE7E6;
+}
+
+.padre-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.imagenes-sinborde{
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    margin-left: 27%;
+    background-attachment: fixed;
+}
+
+.imagenes{
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    background-color: #BFC0C0;
+    color: #374B4A;
+    padding: 30px 20px;
+}
+
+.integrantes{
+    color: #374B4A;
+    margin-top: 20px;
+    background-color: #BFC0C0;
+    width: 655px;
+    margin-bottom: 0%;
+}
+
+button{
+    border: #528E43;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-redes, .instagram, .facebook {
+    width: 40px;
+}
+
+.instagram{
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+ 
+}
+
+.facebook{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+.mapa-de-pesca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.copy{
+    color: #23381A;
+}
+
+.card-body{
+    color: #B5E2FA;
+    background-color: #374B4A;
+    border: #23381A;
+}
