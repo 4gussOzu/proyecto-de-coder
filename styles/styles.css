@@ -81,9 +81,10 @@ p{
 }
 
 body{
-    background-color: #648767;
+    background-color: #648767; 
     color: #CEE7E6;
 }
+
 
 .padre-img{
     display: flex;
@@ -101,9 +102,10 @@ body{
     align-items: center;
     justify-content: center;
     width: 640px;
+    height: 360px;
     margin-left: 27%;
-    background-attachment: fixed;
 }
+
 
 .imagenes{
     align-items: center;
