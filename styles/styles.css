@@ -116,6 +116,15 @@ body{
     padding: 30px 20px;
 }
 
+.poster{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .integrantes{
     color: #374B4A;
     margin-top: 20px;
@@ -178,4 +187,8 @@ footer{
     color: #B5E2FA;
     background-color: #374B4A;
     border: #23381A;
+}
+
+.sobreposicion{
+    position: none;
 }
