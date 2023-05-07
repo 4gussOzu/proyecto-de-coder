@@ -106,7 +106,13 @@ body{
     height: 25%;
     margin-left: 27%;
 }
-
+ 
+.sht-img{
+    align-items: center;
+    justify-content: center;
+    width: 44.25%;
+    margin-left: 27%;
+}
 
 .imagenes{
     align-items: center;
