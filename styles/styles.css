@@ -11,6 +11,7 @@ header{
     position: sticky;
     top: 0; 
     background-color: #7DC95E;
+    z-index: 3;
 }
 
 header img{
@@ -101,8 +102,8 @@ body{
 .imagenes-sinborde{
     align-items: center;
     justify-content: center;
-    width: 640px;
-    height: 360px;
+    width: 50%;
+    height: 25%;
     margin-left: 27%;
 }
 
@@ -117,7 +118,7 @@ body{
 }
 
 .poster{
-    width: 1000px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,9 +187,6 @@ footer{
 .card-body{
     color: #B5E2FA;
     background-color: #374B4A;
-    border: #23381A;
+    border: #23381a;
 }
 
-.sobreposicion{
-    position: none;
-}
