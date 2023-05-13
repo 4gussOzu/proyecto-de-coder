@@ -196,3 +196,10 @@ footer{
     border: #23381a;
 }
 
+.formulario{
+    flex-direction: column;
+    color: aqua;
+}
+.copy2{
+    color: #CEE7E6;
+}
